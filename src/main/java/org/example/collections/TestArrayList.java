@@ -22,6 +22,7 @@ public class TestArrayList {
         }
 
         list.remove(5);
+        list.set(0, 1);
 
         for (Integer i : list){
             System.out.println(i);

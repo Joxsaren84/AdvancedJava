@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49016011-dd0d-4e84-8818-48441a5889c6" name="Changes" comment="Add TestHashMapLinkedHashMapTreeMap">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/collections/TestHashSetLinkedSetTreeSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/collections/TestUnionSets.java" afterDir="false" />
+    <list default="true" id="49016011-dd0d-4e84-8818-48441a5889c6" name="Changes" comment="Add TestHashSetLinkedSetTreeSet &amp; TestUnionSets">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/collections/TestHashcodeAndEquals.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,20 +42,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.TestUnionSets">
-    <configuration name="MyLinkedListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.collections.MyLinkedListTest" />
-      <module name="AdvancedJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.collections.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TestHashcodeAndEquals">
     <configuration name="TestHashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.collections.TestHashMap" />
       <module name="AdvancedJava" />
@@ -96,6 +82,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestHashcodeAndEquals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.collections.TestHashcodeAndEquals" />
+      <module name="AdvancedJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestUnionSets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.collections.TestUnionSets" />
       <module name="AdvancedJava" />
@@ -111,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestHashcodeAndEquals" />
         <item itemvalue="Application.TestUnionSets" />
         <item itemvalue="Application.TestHashSetLinkedSetTreeSet" />
         <item itemvalue="Application.TestHashMapLinkedHashMapTreeMap" />
         <item itemvalue="Application.TestHashMap" />
-        <item itemvalue="Application.MyLinkedListTest" />
       </list>
     </recent_temporary>
   </component>
@@ -140,7 +139,8 @@
       <workItem from="1736470944289" duration="4867000" />
       <workItem from="1736728984313" duration="1536000" />
       <workItem from="1736745250264" duration="2462000" />
-      <workItem from="1736817845294" duration="2580000" />
+      <workItem from="1736817845294" duration="2695000" />
+      <workItem from="1736905074965" duration="1370000" />
     </task>
     <task id="LOCAL-00001" summary="create project">
       <created>1732244909944</created>
@@ -184,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1736746820088</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add TestHashSetLinkedSetTreeSet &amp; TestUnionSets">
+      <created>1736820536895</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1736820536895</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,6 +215,7 @@
     <MESSAGE value="Add MyLinkedList" />
     <MESSAGE value="Add TestHashMap" />
     <MESSAGE value="Add TestHashMapLinkedHashMapTreeMap" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add TestHashMapLinkedHashMapTreeMap" />
+    <MESSAGE value="Add TestHashSetLinkedSetTreeSet &amp; TestUnionSets" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add TestHashSetLinkedSetTreeSet &amp; TestUnionSets" />
   </component>
 </project>

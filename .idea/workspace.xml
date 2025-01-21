@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49016011-dd0d-4e84-8818-48441a5889c6" name="Changes" comment="Add TestHashcodeAndEquals">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/collections/PersonForComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/collections/StringComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/collections/TestComparator.java" afterDir="false" />
+    <list default="true" id="49016011-dd0d-4e84-8818-48441a5889c6" name="Changes" comment="Add TestComparator">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/collections/TestComparable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/collections/TestQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +43,33 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.org.example.collections.TestComparator">
+  <component name="RunManager" selected="Application.TestQueue">
+    <configuration name="TestComparable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.collections.TestComparable" />
+      <module name="AdvancedJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.collections.TestQueue" />
+      <module name="AdvancedJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="org.example.collections.TestComparator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.collections.TestComparator" />
       <module name="AdvancedJava" />
@@ -71,19 +96,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.collections.TestHashSetLinkedSetTreeSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.collections.TestHashSetLinkedSetTreeSet" />
-      <module name="AdvancedJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.collections.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="org.example.collections.TestHashcodeAndEquals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.collections.TestHashcodeAndEquals" />
       <module name="AdvancedJava" />
@@ -97,26 +109,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.collections.TestUnionSets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.collections.TestUnionSets" />
-      <module name="AdvancedJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.collections.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestQueue" />
+        <item itemvalue="Application.TestComparable" />
         <item itemvalue="Application.org.example.collections.TestComparator" />
         <item itemvalue="Application.org.example.collections.TestHashMap" />
         <item itemvalue="Application.org.example.collections.TestHashcodeAndEquals" />
-        <item itemvalue="Application.org.example.collections.TestUnionSets" />
-        <item itemvalue="Application.org.example.collections.TestHashSetLinkedSetTreeSet" />
       </list>
     </recent_temporary>
   </component>
@@ -145,7 +144,8 @@
       <workItem from="1736905074965" duration="1613000" />
       <workItem from="1736993582774" duration="604000" />
       <workItem from="1737078641378" duration="1414000" />
-      <workItem from="1737338015034" duration="3180000" />
+      <workItem from="1737338015034" duration="3410000" />
+      <workItem from="1737422804344" duration="3769000" />
     </task>
     <task id="LOCAL-00001" summary="create project">
       <created>1732244909944</created>
@@ -203,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1736906659851</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Add TestComparator">
+      <created>1737341428855</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1737341428855</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,6 +236,7 @@
     <MESSAGE value="Add TestHashMapLinkedHashMapTreeMap" />
     <MESSAGE value="Add TestHashSetLinkedSetTreeSet &amp; TestUnionSets" />
     <MESSAGE value="Add TestHashcodeAndEquals" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add TestHashcodeAndEquals" />
+    <MESSAGE value="Add TestComparator" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add TestComparator" />
   </component>
 </project>

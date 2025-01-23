@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49016011-dd0d-4e84-8818-48441a5889c6" name="Changes" comment="Add TestStack">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/collections/TestIterable.java" afterDir="false" />
+    <list default="true" id="49016011-dd0d-4e84-8818-48441a5889c6" name="Changes" comment="Add TestIterable">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/multithreading/lesson1/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +42,20 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.TestIterable">
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.multithreading.lesson1.Test" />
+      <module name="AdvancedJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.multithreading.lesson1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestComparable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.collections.TestComparable" />
       <module name="AdvancedJava" />
@@ -95,26 +108,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.collections.TestComparator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.collections.TestComparator" />
-      <module name="AdvancedJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.collections.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.TestIterable" />
         <item itemvalue="Application.TestStack" />
         <item itemvalue="Application.TestQueue" />
         <item itemvalue="Application.TestComparable" />
-        <item itemvalue="Application.org.example.collections.TestComparator" />
       </list>
     </recent_temporary>
   </component>
@@ -145,7 +145,8 @@
       <workItem from="1737078641378" duration="1414000" />
       <workItem from="1737338015034" duration="3410000" />
       <workItem from="1737422804344" duration="3870000" />
-      <workItem from="1737510588987" duration="3374000" />
+      <workItem from="1737510588987" duration="3463000" />
+      <workItem from="1737594998571" duration="3154000" />
     </task>
     <task id="LOCAL-00001" summary="create project">
       <created>1732244909944</created>
@@ -224,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1737513635689</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Add TestIterable">
+      <created>1737514769496</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1737514769496</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,6 +261,7 @@
     <MESSAGE value="Add TestComparator" />
     <MESSAGE value="Add TestComparable &amp; TestQueue" />
     <MESSAGE value="Add TestStack" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add TestStack" />
+    <MESSAGE value="Add TestIterable" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add TestIterable" />
   </component>
 </project>

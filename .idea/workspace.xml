@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49016011-dd0d-4e84-8818-48441a5889c6" name="Changes" comment="Add lesson3-4 synchronized">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/multithreading/lesson5threadpool/TestThreadPool.java" afterDir="false" />
+    <list default="true" id="49016011-dd0d-4e84-8818-48441a5889c6" name="Changes" comment="Add lesson5 ThreadPool">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/multithreading/lesson6/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,20 +45,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.TestThreadPool">
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.multithreading.lesson1.Test" />
-      <module name="AdvancedJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.multithreading.lesson1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.org.example.multithreading.lesson6.Test">
     <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.multithreading.lesson3and4synchronized.Test2" />
       <module name="AdvancedJava" />
@@ -111,13 +98,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="org.example.multithreading.lesson6.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.multithreading.lesson6.Test" />
+      <module name="AdvancedJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.multithreading.lesson6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.example.multithreading.lesson6.Test" />
         <item itemvalue="Application.TestThreadPool" />
         <item itemvalue="Application.Test2" />
         <item itemvalue="Application.org.example.multithreading.lesson3and4synchronized.Test" />
         <item itemvalue="Application.TestVolatile" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -152,7 +152,7 @@
       <workItem from="1737594998571" duration="5864000" />
       <workItem from="1737616738396" duration="146000" />
       <workItem from="1737682756009" duration="6219000" />
-      <workItem from="1737939870703" duration="1769000" />
+      <workItem from="1737939870703" duration="4435000" />
     </task>
     <task id="LOCAL-00001" summary="create project">
       <created>1732244909944</created>
@@ -259,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1737689482672</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Add lesson5 ThreadPool">
+      <created>1737941710467</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1737941710467</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,6 +299,7 @@
     <MESSAGE value="Add lesson1 to multithreading" />
     <MESSAGE value="Add lesson2 (voltile) to multithreading" />
     <MESSAGE value="Add lesson3-4 synchronized" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add lesson3-4 synchronized" />
+    <MESSAGE value="Add lesson5 ThreadPool" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add lesson5 ThreadPool" />
   </component>
 </project>

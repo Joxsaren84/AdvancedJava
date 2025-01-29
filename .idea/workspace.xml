@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49016011-dd0d-4e84-8818-48441a5889c6" name="Changes" comment="Add lesson6 Producer &amp; Consumer">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/multithreading/lesson7/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/multithreading/lesson8/Test.java" afterDir="false" />
+    <list default="true" id="49016011-dd0d-4e84-8818-48441a5889c6" name="Changes" comment="Add lesson7 &amp; lesson8 Producer &amp; Consumer (wait/notify)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/multithreading/lesson10/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/multithreading/lesson9/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +46,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.org.example.multithreading.lesson8.Test">
+  <component name="RunManager" selected="Application.org.example.multithreading.lesson10.Test">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.multithreading.lesson7.Test" />
       <module name="AdvancedJava" />
@@ -60,25 +60,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.multithreading.lesson3and4synchronized.Test2" />
+    <configuration name="org.example.multithreading.lesson10.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.multithreading.lesson10.Test" />
       <module name="AdvancedJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.multithreading.lesson3and4synchronized.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestThreadPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.multithreading.lesson5threadpool.TestThreadPool" />
-      <module name="AdvancedJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.multithreading.lesson5threadpool.*" />
+          <option name="PATTERN" value="org.example.multithreading.lesson10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,13 +99,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="org.example.multithreading.lesson9.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.multithreading.lesson9.Test" />
+      <module name="AdvancedJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.multithreading.lesson9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.example.multithreading.lesson10.Test" />
+        <item itemvalue="Application.org.example.multithreading.lesson9.Test" />
         <item itemvalue="Application.org.example.multithreading.lesson8.Test" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.org.example.multithreading.lesson6.Test" />
-        <item itemvalue="Application.TestThreadPool" />
-        <item itemvalue="Application.Test2" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +154,8 @@
       <workItem from="1737616738396" duration="146000" />
       <workItem from="1737682756009" duration="6219000" />
       <workItem from="1737939870703" duration="4763000" />
-      <workItem from="1738029391560" duration="3364000" />
+      <workItem from="1738029391560" duration="3642000" />
+      <workItem from="1738114462357" duration="3686000" />
     </task>
     <task id="LOCAL-00001" summary="create project">
       <created>1732244909944</created>
@@ -275,7 +276,14 @@
       <option name="project" value="LOCAL" />
       <updated>1737944635066</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Add lesson7 &amp; lesson8 Producer &amp; Consumer (wait/notify)">
+      <created>1738033047745</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1738033047746</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -310,6 +318,7 @@
     <MESSAGE value="Add lesson3-4 synchronized" />
     <MESSAGE value="Add lesson5 ThreadPool" />
     <MESSAGE value="Add lesson6 Producer &amp; Consumer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add lesson6 Producer &amp; Consumer" />
+    <MESSAGE value="Add lesson7 &amp; lesson8 Producer &amp; Consumer (wait/notify)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add lesson7 &amp; lesson8 Producer &amp; Consumer (wait/notify)" />
   </component>
 </project>

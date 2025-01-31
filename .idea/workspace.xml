@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49016011-dd0d-4e84-8818-48441a5889c6" name="Changes" comment="Add lesson9 &amp; lesson10 CountDownLatch/ReentrantLock">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/multithreading/lesson11semaphore/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/multithreading/lesson12deadlock/Test.java" afterDir="false" />
+    <list default="true" id="49016011-dd0d-4e84-8818-48441a5889c6" name="Changes" comment="Add lesson11 &amp; lesson12 Semaphore/DeadLock">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/multithreading/lesson13/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/multithreading/lesson14/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +51,20 @@
       <recent name="org.example.multithreading.lesson11semaphore" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.example.multithreading.lesson12deadlock.Test">
+  <component name="RunManager" selected="Application.org.example.multithreading.lesson14.Test">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.multithreading.lesson13.Test" />
+      <module name="AdvancedJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.multithreading.lesson13.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="org.example.multithreading.lesson10.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.multithreading.lesson10.Test" />
       <module name="AdvancedJava" />
@@ -91,25 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.multithreading.lesson8.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.multithreading.lesson8.Test" />
+    <configuration name="org.example.multithreading.lesson14.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.multithreading.lesson14.Test" />
       <module name="AdvancedJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.multithreading.lesson8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="org.example.multithreading.lesson9.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.multithreading.lesson9.Test" />
-      <module name="AdvancedJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.multithreading.lesson9.*" />
+          <option name="PATTERN" value="org.example.multithreading.lesson14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.example.multithreading.lesson14.Test" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.org.example.multithreading.lesson12deadlock.Test" />
         <item itemvalue="Application.org.example.multithreading.lesson11semaphore.Test" />
         <item itemvalue="Application.org.example.multithreading.lesson10.Test" />
-        <item itemvalue="Application.org.example.multithreading.lesson9.Test" />
-        <item itemvalue="Application.org.example.multithreading.lesson8.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +161,8 @@
       <workItem from="1737939870703" duration="4763000" />
       <workItem from="1738029391560" duration="3642000" />
       <workItem from="1738114462357" duration="4038000" />
-      <workItem from="1738206091263" duration="8952000" />
+      <workItem from="1738206091263" duration="9061000" />
+      <workItem from="1738290910084" duration="3234000" />
     </task>
     <task id="LOCAL-00001" summary="create project">
       <created>1732244909944</created>
@@ -296,7 +297,14 @@
       <option name="project" value="LOCAL" />
       <updated>1738118739208</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Add lesson11 &amp; lesson12 Semaphore/DeadLock">
+      <created>1738219191094</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1738219191094</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -333,6 +341,7 @@
     <MESSAGE value="Add lesson6 Producer &amp; Consumer" />
     <MESSAGE value="Add lesson7 &amp; lesson8 Producer &amp; Consumer (wait/notify)" />
     <MESSAGE value="Add lesson9 &amp; lesson10 CountDownLatch/ReentrantLock" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add lesson9 &amp; lesson10 CountDownLatch/ReentrantLock" />
+    <MESSAGE value="Add lesson11 &amp; lesson12 Semaphore/DeadLock" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add lesson11 &amp; lesson12 Semaphore/DeadLock" />
   </component>
 </project>

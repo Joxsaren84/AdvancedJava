@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49016011-dd0d-4e84-8818-48441a5889c6" name="Changes" comment="Add regexp part1 &amp; part2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/regexp/Test3.java" afterDir="false" />
+    <list default="true" id="49016011-dd0d-4e84-8818-48441a5889c6" name="Changes" comment="Add regexp pattern &amp; matcher">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lambdaex/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lambdaex/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lambdaex/Test3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,13 +52,13 @@
       <recent name="org.example.multithreading.lesson11semaphore" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test3">
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.multithreading.lesson13.Test" />
+  <component name="RunManager" selected="Application.org.example.lambdaex.Test3">
+    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.lambdaex.Test1" />
       <module name="AdvancedJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.multithreading.lesson13.*" />
+          <option name="PATTERN" value="org.example.lambdaex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.multithreading.lesson14.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.multithreading.lesson14.Test" />
+    <configuration name="org.example.lambdaex.Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.lambdaex.Test2" />
       <module name="AdvancedJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.multithreading.lesson14.*" />
+          <option name="PATTERN" value="org.example.lambdaex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.regexp.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.regexp.Test" />
+    <configuration name="org.example.lambdaex.Test3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.lambdaex.Test3" />
       <module name="AdvancedJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.regexp.*" />
+          <option name="PATTERN" value="org.example.lambdaex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.example.lambdaex.Test3" />
+        <item itemvalue="Application.org.example.lambdaex.Test2" />
+        <item itemvalue="Application.Test1" />
         <item itemvalue="Application.Test3" />
         <item itemvalue="Application.Test2" />
-        <item itemvalue="Application.org.example.regexp.Test" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.org.example.multithreading.lesson14.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +165,8 @@
       <workItem from="1738206091263" duration="9061000" />
       <workItem from="1738290910084" duration="3432000" />
       <workItem from="1738545917164" duration="4274000" />
-      <workItem from="1738565564201" duration="1283000" />
+      <workItem from="1738565564201" duration="1558000" />
+      <workItem from="1738632803425" duration="8442000" />
     </task>
     <task id="LOCAL-00001" summary="create project">
       <created>1732244909944</created>
@@ -319,7 +322,14 @@
       <option name="project" value="LOCAL" />
       <updated>1738550200100</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Add regexp pattern &amp; matcher">
+      <created>1738567110749</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1738567110749</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -359,6 +369,7 @@
     <MESSAGE value="Add lesson11 &amp; lesson12 Semaphore/DeadLock" />
     <MESSAGE value="Add lesson13 &amp; lesson14 interruption/Callable(Future)" />
     <MESSAGE value="Add regexp part1 &amp; part2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add regexp part1 &amp; part2" />
+    <MESSAGE value="Add regexp pattern &amp; matcher" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add regexp pattern &amp; matcher" />
   </component>
 </project>

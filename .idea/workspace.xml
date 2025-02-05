@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49016011-dd0d-4e84-8818-48441a5889c6" name="Changes" comment="Add regexp pattern &amp; matcher">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lambdaex/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lambdaex/Test2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lambdaex/Test3.java" afterDir="false" />
+    <list default="true" id="49016011-dd0d-4e84-8818-48441a5889c6" name="Changes" comment="Add lambda expression examples">
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestSomething.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +165,8 @@
       <workItem from="1738290910084" duration="3432000" />
       <workItem from="1738545917164" duration="4274000" />
       <workItem from="1738565564201" duration="1558000" />
-      <workItem from="1738632803425" duration="8442000" />
+      <workItem from="1738632803425" duration="8647000" />
+      <workItem from="1738717743014" duration="641000" />
     </task>
     <task id="LOCAL-00001" summary="create project">
       <created>1732244909944</created>
@@ -329,7 +329,14 @@
       <option name="project" value="LOCAL" />
       <updated>1738567110749</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Add lambda expression examples">
+      <created>1738641499047</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1738641499047</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -370,6 +377,7 @@
     <MESSAGE value="Add lesson13 &amp; lesson14 interruption/Callable(Future)" />
     <MESSAGE value="Add regexp part1 &amp; part2" />
     <MESSAGE value="Add regexp pattern &amp; matcher" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add regexp pattern &amp; matcher" />
+    <MESSAGE value="Add lambda expression examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add lambda expression examples" />
   </component>
 </project>

@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49016011-dd0d-4e84-8818-48441a5889c6" name="Changes" comment="Add lambda expression examples">
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestSomething.java" afterDir="false" />
+    <list default="true" id="49016011-dd0d-4e84-8818-48441a5889c6" name="Changes" comment="Add maven junit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/testjunit/MyMath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/testjunit/NetworkUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/testjunit/Vector2D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/MyMathTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/NetworkUtilsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Vector2DTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,46 +55,7 @@
       <recent name="org.example.multithreading.lesson11semaphore" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.example.lambdaex.Test3">
-    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.lambdaex.Test1" />
-      <module name="AdvancedJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.lambdaex.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.regexp.Test2" />
-      <module name="AdvancedJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.regexp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.regexp.Test3" />
-      <module name="AdvancedJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.regexp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.NetworkUtilsTest">
     <configuration name="org.example.lambdaex.Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.lambdaex.Test2" />
       <module name="AdvancedJava" />
@@ -117,13 +82,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MyMathTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AdvancedJava" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MyMathTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NetworkUtilsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AdvancedJava" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="NetworkUtilsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Vector2DTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AdvancedJava" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Vector2DTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.NetworkUtilsTest" />
+        <item itemvalue="JUnit.MyMathTest" />
+        <item itemvalue="JUnit.Vector2DTest" />
         <item itemvalue="Application.org.example.lambdaex.Test3" />
         <item itemvalue="Application.org.example.lambdaex.Test2" />
-        <item itemvalue="Application.Test1" />
-        <item itemvalue="Application.Test3" />
-        <item itemvalue="Application.Test2" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +158,8 @@
       <workItem from="1738545917164" duration="4274000" />
       <workItem from="1738565564201" duration="1558000" />
       <workItem from="1738632803425" duration="8647000" />
-      <workItem from="1738717743014" duration="641000" />
+      <workItem from="1738717743014" duration="747000" />
+      <workItem from="1738803334116" duration="3890000" />
     </task>
     <task id="LOCAL-00001" summary="create project">
       <created>1732244909944</created>
@@ -336,7 +329,14 @@
       <option name="project" value="LOCAL" />
       <updated>1738641499047</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Add maven junit">
+      <created>1738718480268</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1738718480268</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -378,6 +378,7 @@
     <MESSAGE value="Add regexp part1 &amp; part2" />
     <MESSAGE value="Add regexp pattern &amp; matcher" />
     <MESSAGE value="Add lambda expression examples" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add lambda expression examples" />
+    <MESSAGE value="Add maven junit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add maven junit" />
   </component>
 </project>

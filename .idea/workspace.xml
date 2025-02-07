@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49016011-dd0d-4e84-8818-48441a5889c6" name="Changes" comment="Add maven junit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/testjunit/MyMath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/testjunit/NetworkUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/testjunit/Vector2D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/MyMathTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/NetworkUtilsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Vector2DTest.java" afterDir="false" />
+    <list default="true" id="49016011-dd0d-4e84-8818-48441a5889c6" name="Changes" comment="Add some examples for test with junit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Vector2DTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Vector2DTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +50,7 @@
       <recent name="org.example.multithreading.lesson11semaphore" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.NetworkUtilsTest">
+  <component name="RunManager" selected="JUnit.Vector2DTest">
     <configuration name="org.example.lambdaex.Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.lambdaex.Test2" />
       <module name="AdvancedJava" />
@@ -111,9 +106,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Vector2DTest" />
         <item itemvalue="JUnit.NetworkUtilsTest" />
         <item itemvalue="JUnit.MyMathTest" />
-        <item itemvalue="JUnit.Vector2DTest" />
         <item itemvalue="Application.org.example.lambdaex.Test3" />
         <item itemvalue="Application.org.example.lambdaex.Test2" />
       </list>
@@ -159,7 +154,8 @@
       <workItem from="1738565564201" duration="1558000" />
       <workItem from="1738632803425" duration="8647000" />
       <workItem from="1738717743014" duration="747000" />
-      <workItem from="1738803334116" duration="3890000" />
+      <workItem from="1738803334116" duration="4752000" />
+      <workItem from="1738901631370" duration="1176000" />
     </task>
     <task id="LOCAL-00001" summary="create project">
       <created>1732244909944</created>
@@ -336,7 +332,14 @@
       <option name="project" value="LOCAL" />
       <updated>1738718480268</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Add some examples for test with junit">
+      <created>1738807836296</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1738807836297</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -354,7 +357,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="create project" />
     <MESSAGE value="Add first lecture of ArrayList" />
     <MESSAGE value="Add first lecture of LinkedList" />
     <MESSAGE value="Add MyLinkedList" />
@@ -379,6 +381,7 @@
     <MESSAGE value="Add regexp pattern &amp; matcher" />
     <MESSAGE value="Add lambda expression examples" />
     <MESSAGE value="Add maven junit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add maven junit" />
+    <MESSAGE value="Add some examples for test with junit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add some examples for test with junit" />
   </component>
 </project>

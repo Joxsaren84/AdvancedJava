@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49016011-dd0d-4e84-8818-48441a5889c6" name="Changes" comment="Add some examples for test with junit">
+    <list default="true" id="49016011-dd0d-4e84-8818-48441a5889c6" name="Changes" comment="Add some examples for test with junit lesson2">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/annotation/MethodInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/annotation/MyAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/annotation/MyInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/annotation/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/annotation/Test2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Vector2DTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Vector2DTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -50,13 +56,13 @@
       <recent name="org.example.multithreading.lesson11semaphore" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Vector2DTest">
-    <configuration name="org.example.lambdaex.Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.lambdaex.Test2" />
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.annotation.Test" />
       <module name="AdvancedJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.lambdaex.*" />
+          <option name="PATTERN" value="org.example.annotation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
         <item itemvalue="JUnit.Vector2DTest" />
         <item itemvalue="JUnit.NetworkUtilsTest" />
         <item itemvalue="JUnit.MyMathTest" />
         <item itemvalue="Application.org.example.lambdaex.Test3" />
-        <item itemvalue="Application.org.example.lambdaex.Test2" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +161,8 @@
       <workItem from="1738632803425" duration="8647000" />
       <workItem from="1738717743014" duration="747000" />
       <workItem from="1738803334116" duration="4752000" />
-      <workItem from="1738901631370" duration="1176000" />
+      <workItem from="1738901631370" duration="1217000" />
+      <workItem from="1739150981755" duration="2922000" />
     </task>
     <task id="LOCAL-00001" summary="create project">
       <created>1732244909944</created>
@@ -339,7 +346,14 @@
       <option name="project" value="LOCAL" />
       <updated>1738807836297</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Add some examples for test with junit lesson2">
+      <created>1738902841938</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1738902841938</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -357,7 +371,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add first lecture of ArrayList" />
     <MESSAGE value="Add first lecture of LinkedList" />
     <MESSAGE value="Add MyLinkedList" />
     <MESSAGE value="Add TestHashMap" />
@@ -382,6 +395,7 @@
     <MESSAGE value="Add lambda expression examples" />
     <MESSAGE value="Add maven junit" />
     <MESSAGE value="Add some examples for test with junit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add some examples for test with junit" />
+    <MESSAGE value="Add some examples for test with junit lesson2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add some examples for test with junit lesson2" />
   </component>
 </project>

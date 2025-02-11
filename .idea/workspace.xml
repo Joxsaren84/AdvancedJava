@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49016011-dd0d-4e84-8818-48441a5889c6" name="Changes" comment="Add some examples for test with junit lesson2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/annotation/MethodInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/annotation/MyAnnotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/annotation/MyInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/annotation/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/annotation/Test2.java" afterDir="false" />
+    <list default="true" id="49016011-dd0d-4e84-8818-48441a5889c6" name="Changes" comment="Add some examples with annotation">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/reflection/Author.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/reflection/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/reflection/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/reflection/Test2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +55,7 @@
       <recent name="org.example.multithreading.lesson11semaphore" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.Test2">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.annotation.Test" />
       <module name="AdvancedJava" />
@@ -70,12 +69,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.lambdaex.Test3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.lambdaex.Test3" />
+    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.reflection.Test2" />
       <module name="AdvancedJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.lambdaex.*" />
+          <option name="PATTERN" value="org.example.reflection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,11 +82,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyMathTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="org.example.reflection.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.reflection.Test" />
       <module name="AdvancedJava" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MyMathTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.reflection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -112,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test2" />
+        <item itemvalue="Application.org.example.reflection.Test" />
         <item itemvalue="Application.Test" />
         <item itemvalue="JUnit.Vector2DTest" />
         <item itemvalue="JUnit.NetworkUtilsTest" />
-        <item itemvalue="JUnit.MyMathTest" />
-        <item itemvalue="Application.org.example.lambdaex.Test3" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +165,8 @@
       <workItem from="1738717743014" duration="747000" />
       <workItem from="1738803334116" duration="4752000" />
       <workItem from="1738901631370" duration="1217000" />
-      <workItem from="1739150981755" duration="2922000" />
+      <workItem from="1739150981755" duration="3655000" />
+      <workItem from="1739239188758" duration="5483000" />
     </task>
     <task id="LOCAL-00001" summary="create project">
       <created>1732244909944</created>
@@ -353,7 +357,14 @@
       <option name="project" value="LOCAL" />
       <updated>1738902841938</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Add some examples with annotation">
+      <created>1739154076592</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1739154076592</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -371,7 +382,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add first lecture of LinkedList" />
     <MESSAGE value="Add MyLinkedList" />
     <MESSAGE value="Add TestHashMap" />
     <MESSAGE value="Add TestHashMapLinkedHashMapTreeMap" />
@@ -396,6 +406,7 @@
     <MESSAGE value="Add maven junit" />
     <MESSAGE value="Add some examples for test with junit" />
     <MESSAGE value="Add some examples for test with junit lesson2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add some examples for test with junit lesson2" />
+    <MESSAGE value="Add some examples with annotation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add some examples with annotation" />
   </component>
 </project>
